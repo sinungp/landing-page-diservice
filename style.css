@@ -131,32 +131,11 @@ body {
     margin-bottom: 1rem;
 }
 
-.slider-nav {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 50%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2rem;
-    pointer-events: none;
-}
-
-.prev-btn, .next-btn {
-    background: var(--primary-color);
-    color: white;
-    border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    pointer-events: auto;
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-}
-
-.prev-btn:hover, .next-btn:hover {
-    opacity: 1;
+/* Remove these styles */
+.slider-nav,
+.prev-btn,
+.next-btn {
+    display: none;
 }
 
 .contact {
